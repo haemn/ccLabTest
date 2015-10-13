@@ -1,0 +1,31 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
+	"http://www.w3.org/TR/xhtml1-transitional.dtd">	
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="content-Type" content="text/html; charset=utf-8" />
+<title> Corp Goga</title>
+<link href="style/css/layout.css" rel="stylesheet" type="text/css"/>
+<script src="style/scripts/instafeed.min.js" type="text/javascript"></script>
+<script type="text/javascript">
+	var feed = new Instafeed ({
+		get: "tagged",
+		tagName: "selfie",
+		limit:"32",
+		clientId: "fb88d4cd528c4097a3c34ebb9cf80f6b"
+	});
+	feed.run();
+
+</script>
+</head>
+
+<body>
+<div id="wrapper">
+	<div id ="insta-wrap">
+		<hi>Instagram Feed</hi>
+		<div id="instafeed"></div>
+
+</div>
+
+</div>
+</body>
+</html>
